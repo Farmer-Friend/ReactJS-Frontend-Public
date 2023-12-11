@@ -47,3 +47,10 @@ input {
   border: 1px solid lightgray;
   border-radius: 2px;
 }
+
+ /* Make it responsive */
+@media screen and (max-width: 600px) {
+    .login__container {
+        width: 80%;
+    }
+}

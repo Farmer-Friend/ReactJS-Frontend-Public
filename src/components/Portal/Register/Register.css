@@ -63,5 +63,17 @@ p {
     padding: 10px;
     width: 100%;
 }
-
- 
+/* style .register_error */
+.register__error {
+    color: red;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 0 10px;
+    border: red 1px solid;
+}
+ /* Make it responsive */
+@media (max-width: 768px) {
+    .register__container {
+        width: 80%;
+    }
+}
