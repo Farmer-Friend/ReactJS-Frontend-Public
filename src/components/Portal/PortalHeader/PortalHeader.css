@@ -1,0 +1,59 @@
+/* Portal Header CSS */
+
+.portalHeader {
+  background-color: #131921;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+.portalHeader__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.portalHeader__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  text-align: center;
+}
+
+.portalHeader__optionLineOne {
+  font-size: 10px;
+}
+
+.portalHeader__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.portalHeader__bottom {
+  background-color: #131921;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 60px;
+  z-index: 100;
+}
+
+.portalHeader__bottomContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.portalHeader__bottomOption {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  text-align: center;
+}

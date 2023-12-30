@@ -1,0 +1,79 @@
+/* CSS for Register component */
+/* Path: src/components/Portal/Register/Register.css */
+
+.register {
+    background-color: greenyellow;
+    background-image: linear-gradient(to bottom, greenyellow, #f2d2a9);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form>h5 {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:end
+}
+.register__container {
+    background-color: white;
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.register__registerButton {
+    margin-top: 10px;
+    background-color: yellow;
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 2px;
+}
+.register__signInButton {
+    background-color: #f0c14b;
+    margin: 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+p {
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+}
+/* style .register_error */
+.register__error {
+    color: red;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 0 10px;
+    border: red 1px solid;
+}
+ /* Make it responsive */
+@media (max-width: 768px) {
+    .register__container {
+        width: 80%;
+    }
+}
