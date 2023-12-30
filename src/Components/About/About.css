@@ -1,0 +1,49 @@
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.about-left {
+    flex: 1;
+    align-items: left;
+    text-align: left;
+    padding: 20px;
+}
+
+.about-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about-text {
+    margin-top: 10px;
+}
+
+.about-right {
+    flex: 1;
+    align-items: left;
+    text-align: left;
+    padding: 20px;
+
+}
+
+.project-details-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-list-item {
+    margin-bottom: 5px;
+}

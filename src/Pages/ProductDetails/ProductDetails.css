@@ -1,0 +1,30 @@
+
+.container {
+    margin: 20px;
+    padding: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-product {
+    flex: 1;
+}
+
+.details-product {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.details-product strong {
+    font-weight: bold;
+}
+
+.details-product br {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/* Add any additional styling as needed */

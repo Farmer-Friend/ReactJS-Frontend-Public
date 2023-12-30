@@ -1,0 +1,65 @@
+
+.policy-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.policy-details__content {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.policy-details__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.policy-details__issued_by {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.policy-details__time {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.policy-details__eligiblity {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.policy-details__process {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.policy-details__basic_description {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.policy-details__link {
+    font-size: 14px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.go-back {
+    margin-top: 20px;
+}
+
+.item-not-found {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.loading {
+    margin-top: 20px;
+    text-align: center;
+}

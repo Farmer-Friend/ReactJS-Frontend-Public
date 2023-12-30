@@ -1,0 +1,68 @@
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    /* stick it at end of page */
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    margin-top: 60px;
+    top:auto;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__container__left {
+    flex: 1;
+}
+
+.footer__logo {
+    width: 150px;
+    height: auto;
+    border-radius: 20%;
+}
+
+.footer__container__left__text {
+    margin-top: 10px;
+}
+
+.footer__container__mid,
+.footer__container__right {
+    flex: 1;
+}
+
+.footer__container__mid__links,
+.footer__container__right__authors {
+    margin-bottom: 20px;
+}
+
+.footer__container__mid__links h2,
+.footer__container__right__authors h2 {
+    margin-bottom: 10px;
+}
+
+.footer__container__mid__links ul,
+.footer__container__right__authors ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer__container__mid__links li,
+.footer__container__right__authors li {
+    margin-bottom: 5px;
+}
+
+
+.footer__bottom {
+    text-align: center;
+    /* make it on the bottom */
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    /* padding: 10px; */
+    /* background-color: #ccc; */
+}
